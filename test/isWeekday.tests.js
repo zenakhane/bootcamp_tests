@@ -1,8 +1,8 @@
 describe('isWeekday Function' , function(){
-    it('Should return weekdays', function(){
-        assert.equal(true,isWeekday('M,T,W,T,F'));
+    it('Should return true if its a  weekdays', function(){
+        assert.equal(true,isWeekday('Monday'));
     });
-    it('Should return weekdays', function(){
-        assert.equal(false,isWeekday('S,S'));
+    it('Should return  false if its not a weekdays', function(){
+        assert.equal(false,isWeekday('Sunday'));
     });
 });

@@ -15,7 +15,7 @@ describe('findItemsOver20 Function' , function(){
 
         });
 
-    it('Should return items over', function(){
+    it('Should return items over 20', function(){
         assert.deepEqual(
             findItemsOver20([
                 {"name":"apples","qty":30},
@@ -33,7 +33,7 @@ describe('findItemsOver20 Function' , function(){
 
         });
 
-    it('Should return items over', function(){
+    it('Should return items over 20', function(){
         assert.deepEqual(
             findItemsOver20([
                 {"name":"grapes","qty":35},
