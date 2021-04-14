@@ -6,7 +6,7 @@ describe('fromWhere function' , function(){
             assert.equal('Paarl', fromWhere('CJ'));
             });
             it('Should return location the registration is from', function(){
-                assert.equal('Some other place!', fromWhere('CY'));
+                assert.equal('Some other place!', fromWhere('Cz'));
                 });
      
     });
